@@ -31,7 +31,7 @@ psycopg[c]==3.2.3
 python-dateutil==2.*
 SQLAlchemy==2.*
 bcrypt==4.2.*
-cryptography==43.0.*
+cryptography==45.0.*
 sshtunnel==0.*
 ldap3==2.*
 gssapi==1.8.*
@@ -53,6 +53,6 @@ google-auth-oauthlib==1.2.1
 keyring==25.*
 Werkzeug==3.0.*
 typer[all]==0.12.*
-setuptools==75.*; python_version >= '3.12'
+setuptools==80.*; python_version >= '3.12'
 jsonformatter~=0.3.2
 libgravatar==1.0.*
