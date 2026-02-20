@@ -336,14 +336,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.9.0":
-  version: 1.9.0
-  resolution: "axios@npm:1.9.0"
+"axios@npm:^1.13.5":
+  version: 1.13.5
+  resolution: "axios@npm:1.13.5"
   dependencies:
-    follow-redirects: ^1.15.6
-    form-data: ^4.0.0
+    follow-redirects: ^1.15.11
+    form-data: ^4.0.5
     proxy-from-env: ^1.1.0
-  checksum: 631f02c9c279f2ae90637a4989cc9d75c1c27aefd16b6e8eb90f98a4d0bddaccfd1cb1387be12101d1ab0f9bbf0c47e2451b4de0cf2870462a7d9ed3de8da3f2
+  checksum: 985024c4a32f837053f198f02a308fd6f8bfb4053a2f21e39e37992bc6d06917f008679c36b3e7f0f0c9060c85ffe37c61e58d2ac662595d68dc1b89cef78de8
   languageName: node
   linkType: hard
 
@@ -645,16 +645,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:36.2.1":
-  version: 36.2.1
-  resolution: "electron@npm:36.2.1"
+"electron@npm:36.8.1":
+  version: 36.8.1
+  resolution: "electron@npm:36.8.1"
   dependencies:
     "@electron/get": ^2.0.0
     "@types/node": ^22.7.7
     extract-zip: ^2.0.1
   bin:
     electron: cli.js
-  checksum: 01dafd108ce40004329a80f9ca45aba41537ff330f21165b4de93be0b2f46834466f2ffad1de4bd1bf78361e3a79067fec3e782ab2857db84b88432213a25cad
+  checksum: 762b41afff65ab15ed9420138f1cbb3f417c86294758566c3422f8475f78f264ffa7e84afbc8e28bd5f74171391d9581a389d9f61bb1aad0e245a4f81117018c
   languageName: node
   linkType: hard
 
@@ -990,25 +990,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.15.6":
-  version: 1.15.9
-  resolution: "follow-redirects@npm:1.15.9"
+"follow-redirects@npm:^1.15.11":
+  version: 1.15.11
+  resolution: "follow-redirects@npm:1.15.11"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: 859e2bacc7a54506f2bf9aacb10d165df78c8c1b0ceb8023f966621b233717dab56e8d08baadc3ad3b9db58af290413d585c999694b7c146aaf2616340c3d2a6
+  checksum: 20bf55e9504f59e6cc3743ba27edb2ebf41edea1baab34799408f2c050f73f0c612728db21c691276296d2795ea8a812dc532a98e8793619fcab91abe06d017f
   languageName: node
   linkType: hard
 
-"form-data@npm:^4.0.0":
-  version: 4.0.2
-  resolution: "form-data@npm:4.0.2"
+"form-data@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "form-data@npm:4.0.5"
   dependencies:
     asynckit: ^0.4.0
     combined-stream: ^1.0.8
     es-set-tostringtag: ^2.1.0
+    hasown: ^2.0.2
     mime-types: ^2.1.12
-  checksum: e887298b22c13c7c9c5a8ba3716f295a479a13ca78bfd855ef11cbce1bcf22bc0ae2062e94808e21d46e5c667664a1a1a8a7f57d7040193c1fefbfb11af58aab
+  checksum: af8328413c16d0cded5fccc975a44d227c5120fd46a9e81de8acf619d43ed838414cc6d7792195b30b248f76a65246949a129a4dadd148721948f90cd6d4fb69
   languageName: node
   linkType: hard
 
@@ -1267,13 +1268,13 @@ __metadata:
   linkType: hard
 
 "js-yaml@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "js-yaml@npm:4.1.0"
+  version: 4.1.1
+  resolution: "js-yaml@npm:4.1.1"
   dependencies:
     argparse: ^2.0.1
   bin:
     js-yaml: bin/js-yaml.js
-  checksum: c7830dfd456c3ef2c6e355cc5a92e6700ceafa1d14bba54497b34a99f0376cecbb3e9ac14d3e5849b426d5a5140709a66237a8c991c675431271c4ce5504151a
+  checksum: ea2339c6930fe048ec31b007b3c90be2714ab3e7defcc2c27ebf30c74fd940358f29070b4345af0019ef151875bf3bc3f8644bea1bab0372652b5044813ac02d
   languageName: node
   linkType: hard
 
@@ -1559,8 +1560,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "pgadmin4@workspace:."
   dependencies:
-    axios: ^1.9.0
-    electron: 36.2.1
+    axios: ^1.13.5
+    electron: 36.8.1
     electron-context-menu: ^4.0.5
     electron-store: ^10.0.1
     eslint: ^9.27.0
